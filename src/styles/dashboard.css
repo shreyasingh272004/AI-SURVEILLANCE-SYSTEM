@@ -1,0 +1,29 @@
+.dashboard{
+
+    min-height:100vh;
+
+    background:#0E1117;
+
+    padding:40px;
+
+}
+
+.dashboard-container{
+
+    max-width:1600px;
+
+    margin:auto;
+
+}
+
+.metrics{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+    margin-top:45px;
+
+}

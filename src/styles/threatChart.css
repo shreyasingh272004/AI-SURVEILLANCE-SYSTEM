@@ -1,0 +1,16 @@
+.threat-chart{
+    width:100%;
+    height:100%;
+}
+
+.recharts-wrapper{
+    font-size:13px;
+}
+
+.recharts-cartesian-axis-tick text{
+    fill:#8B95A7;
+}
+
+.recharts-tooltip-wrapper{
+    border-radius:12px;
+}

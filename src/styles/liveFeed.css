@@ -1,0 +1,46 @@
+.live-feed{
+
+    width:100%;
+    height:100%;
+
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:18px;
+
+}
+
+.live-feed img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    filter:brightness(.75);
+
+}
+
+.camera-status{
+
+    position:absolute;
+
+    top:18px;
+    left:18px;
+
+    background:#D4AF37;
+
+    color:#111;
+
+    padding:8px 14px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+}

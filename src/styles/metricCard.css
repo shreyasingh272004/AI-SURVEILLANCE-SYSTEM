@@ -1,0 +1,95 @@
+.metric-card{
+
+    background:linear-gradient(
+        145deg,
+        rgba(28,34,46,.95),
+        rgba(20,24,34,.95)
+    );
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.06);
+
+    border-radius:22px;
+
+    padding:28px;
+
+    transition:.35s ease;
+
+    cursor:pointer;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.metric-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+        135deg,
+        rgba(212,175,55,.06),
+        transparent 45%
+    );
+
+    opacity:0;
+
+    transition:.35s;
+
+}
+
+.metric-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#D4AF37;
+
+    box-shadow:
+        0 12px 35px rgba(0,0,0,.45),
+        0 0 30px rgba(212,175,55,.12);
+
+}
+
+.metric-card:hover::before{
+
+    opacity:1;
+
+}
+
+.metric-header{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:#9EA9BA;
+
+    font-size:18px;
+
+    margin-bottom:28px;
+
+}
+
+.metric-header span{
+
+    font-size:28px;
+
+}
+
+.metric-card h2{
+
+    font-size:56px;
+
+    font-weight:800;
+
+    letter-spacing:1px;
+
+}
